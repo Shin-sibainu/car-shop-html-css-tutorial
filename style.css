@@ -124,3 +124,52 @@ section {
     margin-right: 150px;
 }
 
+
+/* car-style */
+.car-style {
+    width: 100%;
+    background-color: #e9e8e8;
+
+}
+
+.car-style .car-style-title {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.style-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.car-card {
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    overflow: hidden;
+    max-width: 400px;
+}
+
+.car-card p {
+    font-size: 1rem;
+}
+
+.style-text {
+    padding: 30px;
+}
+
+.style-text h4 {
+   margin-top: -20px;
+   margin-bottom: 10px;
+}
+
+
+/* mediaquery */
+@media screen and (max-width:768px){
+    /* * {
+        font-size: 62.5%;
+    } */
+}
+
